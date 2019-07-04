@@ -1,5 +1,7 @@
 import time, random, requests
-import DAN
+import DAN as danLib
+
+DAN = danLib.DAN()
 
 ServerURL = 'http://IP:9999'      #with non-secure connection
 #ServerURL = 'https://DomainName' #with SSL connection
